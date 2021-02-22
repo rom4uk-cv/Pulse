@@ -1,0 +1,27 @@
+@import 'bootstrap-reboot.min.scss';
+@import 'fonts.scss';
+@import 'slick.scss';
+@import 'variables.scss';
+@import 'promo.scss';
+@import 'header.scss';
+@import 'buttons.scss';
+@import 'features.scss';
+@import 'title.scss';
+@import 'consultation.scss';
+@import 'forms.scss';
+@import 'carousel.scss';
+@import 'catalog.scss';
+@import 'review.scss';
+@import 'footer.scss';
+@import 'modal.scss';
+@import 'pageup.scss';
+@import 'animation.scss';
+@import 'media.scss';
+* {
+    font-family: 'Museo Sans Cyrl', sans-serif;
+}
+.container {
+    max-width: 950px;
+    margin: 0 auto;
+}
+

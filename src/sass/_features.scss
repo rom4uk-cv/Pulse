@@ -1,0 +1,36 @@
+.features {
+    min-height: 470px;
+    background-color: #f6f6f6;
+    padding: 70px 0 78px 0;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 65px;
+    }
+    &__item {
+        max-width: 245px;
+        font-size: 14px;
+        font-weight: 300;
+        color: #0d0d0d;
+        text-align: center;
+        a {
+            text-decoration: underline;
+            color: #ff0000;
+        }
+    }
+    &__icon {
+        display: block;
+        margin: 0 auto;
+        &_animated {
+            animation-name: heartbeat;
+            animation-duration: 1s;
+            animation-timing-function: ease;
+            animation-iteration-count: infinite;
+        }
+    }
+    &__subtitle {
+        margin: 38px 0 26px 0;
+        font-size: 18px;
+        font-weight: 700;
+    }
+}
